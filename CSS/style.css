@@ -1,5 +1,5 @@
 #main--container{
-    padding: 150px;
+    padding: 125px;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
@@ -34,7 +34,7 @@
 /* SUMMARY OF SKILLS, TOOLS, AND TECHNOLOGIES */
 #summary--skills{
     list-style: none;
-    line-height: 10%;
+    line-height: 30%;
     margin-left: auto;
     margin-right: auto;
 }
