@@ -1,0 +1,70 @@
+#main--container{
+    padding: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+/* Profile Picture*/
+#photo{
+    float: left;
+    display: block;
+    border-radius: 100%;
+    width: 19%;
+    height: auto;
+}
+/* Personal info email,phone,location*/
+.bio{
+    text-align: center;
+}
+/* Linkedin, Download Resume*/
+#Social--list{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Social--list a{
+    font-size: 0.9em;
+    gap: 2;
+}
+#Social--list a:hover{
+    color: brown;
+}
+#certifications{
+    list-style: none;
+}
+/* SUMMARY OF SKILLS, TOOLS, AND TECHNOLOGIES */
+#summary--skills{
+    list-style: none;
+    line-height: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* PowerBi Project section */
+#pwbilogo{
+    float: left;
+}
+/* EXPERIENCE DETAILS */
+p.wexp{ 
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    /* H1 = Resumes Name */
+    h1 {
+        text-align: center;
+        color: rgb(0, 132, 255);
+         font-size: 45px;
+         font-style: normal;
+         font: bold;
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    h2 {
+        font-family: 'Times New Roman', Times, serif;
+        color: rgb(0, 0, 0);
+        text-decoration: underline;
+    }
+    h3 {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+    }
+}
