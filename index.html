@@ -7,6 +7,12 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
+    <!--Toggle Switch-->
+    <label class="switch">
+  <input type="checkbox" id="darkModeToggle">
+  <span class="slider round"></span>
+</label>
+<!--Toggle Switch-->
     <div id="main--container">
         <header>
             <div>
@@ -150,5 +156,27 @@
 
         </div>
     </div>
+    <!--JavaScript-->
+    <script>
+  const toggle = document.getElementById('darkModeToggle');
+  const body = document.body;
+
+  // Check for saved mode in localStorage
+  if (localStorage.getItem('darkMode') === 'enabled') {
+    body.classList.add('dark-mode');
+    toggle.checked = true;
+  }
+
+  toggle.addEventListener('change', () => {
+    if (toggle.checked) {
+      body.classList.add('dark-mode');
+      localStorage.setItem('darkMode', 'enabled');
+    } else {
+      body.classList.remove('dark-mode');
+      localStorage.setItem('darkMode', 'disabled');
+    }
+  });
+</script>
+<!--JavaScript-->
 </body>
 </html>
